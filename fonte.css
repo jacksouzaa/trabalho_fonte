@@ -1,0 +1,96 @@
+
+body {
+    font-family: 'Roboto', sans-serif; 
+    background-color: #fff4df;       
+    color: #333333;                    
+    margin: 0;                        
+    padding: 20px;                  
+}
+
+
+h1 {
+   font-family: 'Pacifico', cursive;
+    color: #b22222;                 
+    font-size: 2.8rem;                
+    text-align: center;             
+    
+   
+    background-color: #ffffff;        /* Cor de fundo de dentro da caixa */
+    border: 4px solid #b22222;        /*A cor e a grossura da borda em volta da caixa */
+    border-radius: 12px;              /*  Arredonda os cantos da caixa */
+    padding: 20px 15px;               /* Espaço interno para o texto respirar dentro da caixa */
+    margin-top: 15px;                 
+    margin-bottom: 35px;              
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+section {
+    background-color: #fff4df;       
+    padding: 30px;                    
+    margin-bottom: 25px;              
+    border-radius: 12px;              
+    border-left: 6px solid #1e5631;   
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08); 
+
+}
+
+
+h2 {
+    font-family: 'Cinzel', serif;    
+    color: #1e5631;                 
+    font-size: 1.9rem;               
+    margin-top: 35px;               
+    border-bottom: 2px solid #ddd;   
+    padding-bottom: 5px;
+}
+
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #a52a2a;                  
+    font-size: 1.2rem;                
+    font-weight: 700;                 
+    margin-top: 20px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;                  
+    line-height: 1.6;                
+    margin-bottom: 12px;  
+}
+
+
+ul {
+    margin-bottom: 15px;
+    padding-left: 20px;              
+}
+
+li {
+    font-size: 1.05rem;
+    margin-bottom: 6px;   
+}            
+
+
+img {
+    max-width: 100%;                  
+    height: auto;                  
+    border-radius: 8px;               
+    width: 600px;                     /*  Define uma largura padrão ideal para as fotos */
+    display: block;                   /*  Coloca a imagem em um bloco próprio */
+    margin: 20px auto;                /* Centraliza a imagem na tela e dá espaço em cima/baixo */
+    
+    border-radius: 10px;              /* Arredonda levemente os cantos da imagem */
+    border: 4px solid #1e5631;        /* Cria uma borda grossa, reta e na cor verde pinheiro */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);                 
+}
+
+a {
+    color: #0066cc;                 
+    text-decoration: none;           
+    font-weight: bold;               
+}
+
+a:hover {
+    text-decoration: underline;       
+}
